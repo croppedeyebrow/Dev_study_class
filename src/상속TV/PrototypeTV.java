@@ -60,9 +60,12 @@ class ProductTV extends PrototypeTV {
         if (isinternet) {
             System.out.println("인터넷 모드 입니다");
             this.isinternet = true;
+            channel = ch;
+            System.out.println("채널을:" + channel + "변경 했습니다.");
+
         } else {
             this.isinternet = false;
-            if (ch > 1 && ch < 2000) {
+            if (ch > 1 && ch < 1000) {
                 channel = ch;
                 System.out.println("채널을:" + channel + "변경 했습니다.");
             } else System.out.println("채널 설정 범위를 벗어났습니다");

@@ -5,7 +5,7 @@ public class InheritanceTV {
         PrototypeTV prototypeTV = new PrototypeTV(); // 상속을 주는 클래스가 인스턴스화 된다는 의미는 추상화가 아니라는 의미
         ProductTV productTV = new ProductTV("우리집 TV");
         productTV.setPowr(true);
-        productTV.setvolume(120);
+        productTV.setvolume(80);
         productTV.setChannel(1500, true);
         productTV.viewTV();
     }
