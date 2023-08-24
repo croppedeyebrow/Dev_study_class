@@ -27,7 +27,7 @@ public class BuyerEx {
                     buyer.viewInfo();
                     break;
                 case  4 : return;
-                default: System.out.println("해당 제품이 없습니다.");
+                default: System.out.println("해당 제품이 없습니다."); //case가 거르지 못한, 오류 체크.
 
             }
         }

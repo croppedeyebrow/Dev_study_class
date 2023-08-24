@@ -1,7 +1,7 @@
 package 다형성기본;
 
 public class Child extends Parent{
-    private  int x = 100;
+   // private  int x = 100;
     public Child() {}
     public void out() {
         System.out.println("부모의 protected num 필드 :" + money);
