@@ -20,6 +20,7 @@ public class CarComp implements Comparable<CarComp> {
         else {
             if (this.modelYear == o.modelYear) {
                 return this.color.compareTo(o.color); //사전 순 정렬
+
             }
         }
         return  -1;
